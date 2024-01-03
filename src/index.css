@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-magenta: #121139;
+    --white: #fff;
+    --gray: #92989F;
+    --black: #000;
+}
+
+*,
+*::before,
+*::after {
+    @apply p-0 m-0 box-border font-sans overflow-hidden;
+}
+
+html,
+body,
+#root {
+    @apply min-h-screen w-screen overflow-x-hidden;
+}
+
+html {
+    overflow-y: scroll !important;
+    @apply scroll-smooth;
+}
+
+.container {
+    @apply w-[90%] min-h-full mx-auto
+}
+
+.center {
+    @apply grid place-items-center;
+}
+
+.section {
+    @apply min-h-full w-screen;
+}
