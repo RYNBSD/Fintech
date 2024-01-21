@@ -14,8 +14,8 @@ export default function Consulting() {
                         deliver the best results to all our clients.
                     </p>
                 </div>
-                <div className="bg-[var(--dark-purple)] flex flex-col gap-5 p-5 rounded-2xl relative z-10 before:content-[''] before:absolute before:z-0 before:top-0 before:left-0 before:w-full before:h-full before:bg-gradient-to-b before:from-indigo-600 before:to-violet-600 before:rounded-[30px] before:blur-[90px]">
-                    <div className="flex justify-between items-start relative z-10">
+                <div className="bg-[var(--dark-purple)] flex flex-col gap-5 mb-20 p-5 rounded-2xl relative z-10 shadow-2xl shadow-indigo-600">
+                    <div className="flex justify-between items-start">
                         <div>
                             <small className="text-[#fff] text-sm font-[500]">
                                 Growth report
@@ -35,7 +35,7 @@ export default function Consulting() {
                         </div>
                     </div>
                     <img
-                        className="w-full h-full object-contain relative z-10"
+                        className="w-full h-full object-contain"
                         src="/asset/graph-line.png"
                         alt="graph-line"
                     />
