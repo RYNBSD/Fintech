@@ -38,3 +38,7 @@ html {
 .section {
     @apply min-h-screen w-screen;
 }
+
+.circle-gradient {
+    background: linear-gradient(177deg, rgba(66, 62, 224, 0.40) -13.49%, rgba(129, 45, 226, 0.40) 109.75%);
+}
