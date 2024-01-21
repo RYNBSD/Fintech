@@ -42,3 +42,14 @@ html {
 .circle-gradient {
     background: linear-gradient(177deg, rgba(66, 62, 224, 0.40) -13.49%, rgba(129, 45, 226, 0.40) 109.75%);
 }
+
+.text-gradient {
+    background: linear-gradient(263deg, #9130F4 21.05%, #4646F9 77.63%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-gradient {
+    border: 4px solid var(--stroke-gradient, #812DE2);
+}
