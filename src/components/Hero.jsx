@@ -1,3 +1,4 @@
+import Atropos from "atropos/react";
 import Circle from "./global/Circle";
 
 const brands = [
@@ -33,11 +34,13 @@ export default function Hero() {
                     </button>
                 </div>
                 <div>
-                    <img
-                        className="w-full h-full object-contain"
-                        src="/asset/credit-card.png"
-                        alt="credit card"
-                    />
+                    <Atropos shadow={false}>
+                        <img
+                            className="w-full h-full object-contain"
+                            src="/asset/credit-card.png"
+                            alt="credit card"
+                        />
+                    </Atropos>
                 </div>
             </div>
             <div className="w-full flex justify-around items-center py-5">
