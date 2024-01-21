@@ -7,6 +7,7 @@
     --white: #fff;
     --gray: #92989F;
     --black: #000;
+    --dark-purple: #121139;
 }
 
 *,
@@ -35,5 +36,5 @@ html {
 }
 
 .section {
-    @apply min-h-full w-screen;
+    @apply min-h-screen w-screen;
 }

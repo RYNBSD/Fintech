@@ -1,3 +1,5 @@
 export default function Hero() {
-    return <header>Hero</header>;
+    return <header className="section bg-[var(--dark-purple)]">
+        <div className="container"></div>
+    </header>;
 }
